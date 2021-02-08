@@ -30,4 +30,22 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
 
     }
+
+    public void www(View view){
+        Intent intent=new Intent(MainActivity.this, WwwActivity.class);
+        startActivity(intent);
+
+    }
+
+    public void settings(View view){
+        Intent intent=new Intent(MainActivity.this, SettingsActivity.class);
+        startActivity(intent);
+
+    }
+
+    public void picture(View view){
+        Intent intent=new Intent(MainActivity.this, PictureActivity.class);
+        startActivity(intent);
+
+    }
 }
