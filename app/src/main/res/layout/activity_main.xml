@@ -8,7 +8,7 @@
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="230dp"
-        android:background="@drawable/wallpapersmp"
+        android:background="@drawable/latar"
         >
     </ImageView>
     <LinearLayout
@@ -35,7 +35,7 @@
                 android:layout_height="wrap_content"
                 android:text="SMPN 11 TEGAL"
                 android:textColor="@color/black"
-                android:textSize="50dp"
+                android:textSize="20dp"
                 android:textStyle="bold">
             </TextView>
             <TextView
@@ -64,8 +64,8 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:background="@color/white"
-                    android:src="@drawable/iconprofil"
-                    android:onClick="profil">
+                    android:src="@drawable/user"
+                    android:onClick="user">
 
                 </ImageView>
 
@@ -83,8 +83,8 @@
                     android:layout_height="80dp"
                     android:layout_marginTop="40dp"
                     android:background="@color/white"
-                    android:onClick="informasi"
-                    android:src="@drawable/iconinfo">
+                    android:onClick="www"
+                    android:src="@drawable/www">
                 </ImageView>
 
                 <TextView
@@ -99,9 +99,9 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_marginTop="40dp"
-                    android:src="@drawable/iconpiala"
+                    android:src="@drawable/info"
                     android:background="@color/white"
-                    android:onClick="prestasi">
+                    android:onClick="info">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
@@ -124,8 +124,8 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:background="@color/white"
-                    android:src="@drawable/iconabsen"
-                    android:onClick="absensi">
+                    android:src="@drawable/house"
+                    android:onClick="house">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
@@ -139,9 +139,9 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_marginTop="40dp"
-                    android:src="@drawable/sports"
+                    android:src="@drawable/picture"
                     android:background="@color/white"
-                    android:onClick="ekstrakulikuler">
+                    android:onClick="picture">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
@@ -155,9 +155,9 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_marginTop="40dp"
-                    android:src="@drawable/icontugas"
+                    android:src="@drawable/settings"
                     android:background="@color/white"
-                    android:onClick="tugas">
+                    android:onClick="settings">
                 </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
