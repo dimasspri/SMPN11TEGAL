@@ -75,24 +75,24 @@
         android:textSize="12sp"
         android:textStyle="bold" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="5dp"
-        android:layout_marginTop="130dp"
-        android:layout_marginRight="12dp"
-        android:text="Alamat : JL.MARTOLOYO NO 62 PANGGUNG, KOTA TEGAL, JAWA TENGAH"
-        android:textColor="#000"
-        android:textSize="12sp"
-        android:textStyle="bold" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="130dp"
+            android:layout_marginRight="12dp"
+            android:text="Alamat : Jl. Mejabung No 18"
+            android:textColor="#000"
+            android:textSize="12sp"
+            android:textStyle="bold" />
 
-    <TextView
+        <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="5dp"
         android:layout_marginTop="160dp"
         android:layout_marginRight="12dp"
-        android:text="Kodepos : 52122   "
+        android:text="Kodepos :  52122 "
         android:textColor="#000"
         android:textSize="12sp"
         android:textStyle="bold" />
