@@ -3,11 +3,11 @@ package com.example.smpn11tegal;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class WwwActivity extends AppCompatActivity {
+public class ProfilActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_www);
+        setContentView(R.layout.activity_profil);
     }
 }

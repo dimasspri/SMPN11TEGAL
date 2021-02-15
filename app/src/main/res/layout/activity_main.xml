@@ -5,11 +5,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
+
     <ImageView
         android:layout_width="match_parent"
         android:layout_height="230dp"
-        android:background="@drawable/latar"
-        >
+        android:background="@drawable/latar">
     </ImageView>
     <LinearLayout
         android:layout_width="match_parent"
@@ -26,7 +27,7 @@
             <ImageView
                 android:layout_width="60dp"
                 android:layout_height="60dp"
-                android:src="@drawable/logosmp">
+                android:src="@drawable/tegal">
 
             </ImageView>
 
@@ -64,8 +65,9 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:background="@color/white"
-                    android:src="@drawable/user"
-                    android:onClick="user">
+                    android:onClick="profil"
+                    android:src="@drawable/profil"
+                    tools:ignore="SpeakableTextPresentCheck">
 
                 </ImageView>
 
@@ -83,8 +85,10 @@
                     android:layout_height="80dp"
                     android:layout_marginTop="40dp"
                     android:background="@color/white"
-                    android:onClick="www"
-                    android:src="@drawable/www">
+                    android:onClick="info"
+                    android:src="@drawable/info"
+                    tools:ignore="SpeakableTextPresentCheck">
+
                 </ImageView>
 
                 <TextView
@@ -95,14 +99,15 @@
                     android:textStyle="bold"
                     android:textColor="@color/black">
                 </TextView>
+
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_marginTop="40dp"
-                    android:src="@drawable/info"
                     android:background="@color/white"
-                    android:onClick="info">
-                </ImageView>
+                    android:onClick="prestasi"
+                    android:src="@drawable/prestasi"
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck"></ImageView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -124,9 +129,10 @@
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:background="@color/white"
-                    android:src="@drawable/house"
-                    android:onClick="house">
-                </ImageView>
+                    android:onClick="absen"
+                    android:src="@drawable/absen"
+                    tools:ignore="SpeakableTextPresentCheck"></ImageView>
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -135,14 +141,15 @@
                     android:textStyle="bold"
                     android:textColor="@color/black">
                 </TextView>
+
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_marginTop="40dp"
-                    android:src="@drawable/picture"
                     android:background="@color/white"
-                    android:onClick="picture">
-                </ImageView>
+                    android:onClick="ekstra"
+                    android:src="@drawable/ekstra"
+                    tools:ignore="SpeakableTextPresentCheck"></ImageView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -151,14 +158,15 @@
                     android:textStyle="bold"
                     android:textColor="@color/black">
                 </TextView>
+
                 <ImageView
                     android:layout_width="80dp"
                     android:layout_height="80dp"
                     android:layout_marginTop="40dp"
-                    android:src="@drawable/settings"
                     android:background="@color/white"
-                    android:onClick="settings">
-                </ImageView>
+                    android:onClick="tugas"
+                    android:src="@drawable/tugas"
+                    tools:ignore="SpeakableTextPresentCheck"></ImageView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"

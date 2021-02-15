@@ -9,12 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN11TEGAL">
-        <activity android:name=".PictureActivity"></activity>
-        <activity android:name=".SettingsActivity" />
-        <activity android:name=".WwwActivity" />
+        <activity android:name=".TugasActivity"></activity>
+        <activity android:name=".PrestasiActivity" />
         <activity android:name=".InfoActivity" />
-        <activity android:name=".HouseActivity" />
-        <activity android:name=".UserActivity" />
+        <activity android:name=".EkstraActivity" />
+        <activity android:name=".AbsenActivity" />
+        <activity android:name=".ProfilActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

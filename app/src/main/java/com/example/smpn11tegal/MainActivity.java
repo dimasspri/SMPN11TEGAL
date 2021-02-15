@@ -13,14 +13,14 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
-    public void user(View view){
-        Intent intent=new Intent(MainActivity.this, UserActivity.class);
+    public void profil(View view){
+        Intent intent=new Intent(MainActivity.this, ProfilActivity.class);
         startActivity(intent);
 
     }
 
-    public void house(View view){
-        Intent intent=new Intent(MainActivity.this, HouseActivity.class);
+    public void absen(View view){
+        Intent intent=new Intent(MainActivity.this, AbsenActivity.class);
         startActivity(intent);
 
     }
@@ -31,20 +31,20 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public void www(View view){
-        Intent intent=new Intent(MainActivity.this, WwwActivity.class);
+    public void ekstra (View view){
+        Intent intent=new Intent(MainActivity.this, EkstraActivity.class);
         startActivity(intent);
 
     }
 
-    public void settings(View view){
-        Intent intent=new Intent(MainActivity.this, SettingsActivity.class);
+    public void prestasi(View view){
+        Intent intent=new Intent(MainActivity.this, PrestasiActivity.class);
         startActivity(intent);
 
     }
 
-    public void picture(View view){
-        Intent intent=new Intent(MainActivity.this, PictureActivity.class);
+    public void tugas(View view){
+        Intent intent=new Intent(MainActivity.this, TugasActivity.class);
         startActivity(intent);
 
     }
