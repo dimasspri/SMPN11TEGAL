@@ -107,7 +107,9 @@
                     android:background="@color/white"
                     android:onClick="prestasi"
                     android:src="@drawable/prestasi"
-                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck"></ImageView>
+                    tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck">
+
+                </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -131,7 +133,9 @@
                     android:background="@color/white"
                     android:onClick="absen"
                     android:src="@drawable/absen"
-                    tools:ignore="SpeakableTextPresentCheck"></ImageView>
+                    tools:ignore="SpeakableTextPresentCheck">
+
+                </ImageView>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -149,7 +153,9 @@
                     android:background="@color/white"
                     android:onClick="ekstra"
                     android:src="@drawable/ekstra"
-                    tools:ignore="SpeakableTextPresentCheck"></ImageView>
+                    tools:ignore="SpeakableTextPresentCheck">
+
+                </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -166,7 +172,9 @@
                     android:background="@color/white"
                     android:onClick="tugas"
                     android:src="@drawable/tugas"
-                    tools:ignore="SpeakableTextPresentCheck"></ImageView>
+                    tools:ignore="SpeakableTextPresentCheck">
+
+                </ImageView>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
