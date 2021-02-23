@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.smpn11tegal">
+    package="com.example.smpn11tegal" >
 
     <application
         android:allowBackup="true"
@@ -8,14 +8,16 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.SMPN11TEGAL">
-        <activity android:name=".TugasActivity"></activity>
-        <activity android:name=".PrestasiActivity" />
+        android:theme="@style/Theme.SMPN11TEGAL" >
+        <activity android:name=".absenActivity" >
+        </activity>
+        <activity android:name=".PrestasiActivity" >
+        </activity>
+        <activity android:name=".TugasActivity" />
         <activity android:name=".InfoActivity" />
         <activity android:name=".EkstraActivity" />
-        <activity android:name=".AbsenActivity" />
         <activity android:name=".ProfilActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
