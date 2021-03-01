@@ -9,10 +9,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.SMPN11TEGAL" >
-        <activity android:name=".absenActivity" >
-        </activity>
-        <activity android:name=".PrestasiActivity" >
-        </activity>
+        <activity
+            android:name=".SplashScreenActivity"
+            android:exported="true" />
+        <activity
+            android:name=".SplashscreenActivity"
+            android:exported="true" />
+        <activity android:name=".AbsenActivity" />
+        <activity android:name=".PrestasiActivity" />
         <activity android:name=".TugasActivity" />
         <activity android:name=".InfoActivity" />
         <activity android:name=".EkstraActivity" />
