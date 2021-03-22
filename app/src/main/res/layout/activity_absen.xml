@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/latar"
+    android:background="#808080"
     android:alwaysDrawnWithCache="false"
     android:animationCache="false">
 
@@ -149,6 +149,39 @@
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="40dp"
                     android:text="Ahmad Komarizaman"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="135dp"
+                android:layout_height="125dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="10dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/teacher"/>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="235dp"
+                android:layout_height="125dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="12dp"
+                app:cardCornerRadius="10dp" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="40dp"
+                    android:text="Sunardi"
                     android:textColor="#000"
                     android:textSize="20sp"
                     android:textStyle="bold"/>

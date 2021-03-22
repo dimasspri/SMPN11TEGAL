@@ -54,6 +54,9 @@
                     android:textStyle="bold">
 
                 </TextView>
+
+
+
                 <ImageView
                     android:layout_width="95dp"
                     android:layout_height="95dp"
@@ -70,6 +73,8 @@
                     android:textStyle="bold">
 
                 </TextView>
+
+
                 <ImageView
                     android:layout_width="95dp"
                     android:layout_height="95dp"
@@ -114,6 +119,8 @@
                     android:textStyle="bold">
 
                 </TextView>
+
+
                 <ImageView
                     android:layout_width="95dp"
                     android:layout_height="95dp"
@@ -130,6 +137,8 @@
                     android:textStyle="bold">
 
                 </TextView>
+
+
                 <ImageView
                     android:layout_width="95dp"
                     android:layout_height="95dp"
@@ -145,6 +154,17 @@
                     android:textSize="15dp"
                     android:textStyle="bold">
                 </TextView>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="#4BC2F8"
+                    android:gravity="center"
+                    android:onClick="lainya"
+                    android:text="FOTO LAINYA"
+                    android:textStyle="bold"
+                    tools:ignore="OnClick" />
 
 
             </LinearLayout>

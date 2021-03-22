@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#808080"
+    tools:context=".VisiActivity">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="399dp"
+        android:layout_height="281dp"
+        android:layout_rowWeight="1"
+        android:layout_columnWeight="1"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="12dp"
+
+        android:layout_marginBottom="10dp"
+        app:cardCornerRadius="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="12dp"
+            android:text="VISI"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="50dp"
+            android:layout_marginRight="12dp"
+            android:text="Visi sekolah : UPTD SMP 11 Tegal yaitu: AKTIF MERAIH AKADEMIK DAN NON "
+            android:textColor="#000"
+            android:textSize="9sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="65dp"
+            android:layout_marginRight="12dp"
+            android:text="AKADEMIK UNTUK MEWUJUDKAN SISWA YANG PINTAR,TERAMPIL,MANDIRI,DAN "
+            android:textColor="#000"
+            android:textSize="9sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="80dp"
+            android:layout_marginRight="12dp"
+            android:text="BERWAWASAN KECERDASAN SPIRITUAL DAN INTELEKTUAL TINGGI."
+            android:textColor="#000"
+            android:textSize="9sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="150dp"
+            android:layout_marginTop="120dp"
+            android:layout_marginRight="12dp"
+            android:text="MISI"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="160dp"
+            android:layout_marginRight="12dp"
+            android:text="1. Mewujudkan sekolah sebagai Wiyata Mandala sehingga terjalin hubungan humoris"
+            android:textColor="#000"
+            android:textSize="9sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="185dp"
+            android:layout_marginRight="12dp"
+            android:text="2. Mempersiapkan siswa untuk meraih prestasi akademik dan non akademik dengan cara memfasilitasi siswa untuk mengembangkan kemampuannya."
+            android:textColor="#000"
+            android:textSize="9sp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="210dp"
+            android:layout_marginRight="12dp"
+            android:text="3. Memperbanyak kerja sama dengan pihak luar dalam rangka meningkatkan minat dan bakat siswa"
+            android:textColor="#000"
+            android:textSize="9sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="235dp"
+            android:layout_marginRight="12dp"
+            android:text="4. Mewujudkan keimanan dan ketaqwaan kepada Tuhan yang Maha Esa dalam pergaulan di sekolah dan di masyarakat"
+            android:textColor="#000"
+            android:textSize="9sp"
+            android:textStyle="bold" />
+
+    </android.support.v7.widget.CardView>
+</RelativeLayout>
+
+

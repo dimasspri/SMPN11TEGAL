@@ -37,7 +37,7 @@
 
         <TableLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="246dp"
             android:background="@color/white">
 
             <TableRow
@@ -134,7 +134,7 @@
                     android:layout_height="wrap_content"
                     android:paddingLeft="10dp"
                     android:paddingRight="10dp"
-                    android:text="1978"
+                    android:text="1981"
                     android:textSize="15dp" />
 
             </TableRow>
@@ -233,7 +233,6 @@
                     android:textSize="15dp" />
 
 
-
             </TableRow>
 
             <TableRow
@@ -263,7 +262,6 @@
                     android:paddingRight="10dp"
                     android:text="Tegal Timur"
                     android:textSize="15dp" />
-
 
 
             </TableRow>
@@ -393,6 +391,31 @@
             </TableRow>
 
         </TableLayout>
+
+        <LinearLayout
+            android:layout_width="421dp"
+            android:layout_height="212dp"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="153dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                app:cardCornerRadius="10dp"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="429dp">
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="#4BC2F8"
+                    android:gravity="center"
+                    android:onClick="misi"
+                    android:text="VISI DAN MISI"
+                    tools:ignore="OnClick" />
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
 
     </LinearLayout>
 
