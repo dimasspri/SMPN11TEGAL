@@ -166,7 +166,6 @@
                     android:textStyle="bold"
                     tools:ignore="OnClick" />
 
-
             </LinearLayout>
         </LinearLayout>
 
