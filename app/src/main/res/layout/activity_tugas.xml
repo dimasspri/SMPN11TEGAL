@@ -136,7 +136,7 @@
                     android:layout_marginLeft="5sp"
                     android:layout_marginTop="20dp"
                     android:layout_marginRight="5sp"
-                    android:text="Laboratorium SMPN 18 TEGAL terdiri dari Lab Fisika , Kimia dan Biologi, masing masing terdiri dari dua lokal, satu lokal digunakan kegiatan PBM sekaligus praktikum untuk siswa."
+                    android:text="Laboratorium SMPN 11 TEGAL terdiri dari Lab Fisika , Kimia dan Biologi, masing masing terdiri dari dua lokal, satu lokal digunakan kegiatan PBM sekaligus praktikum untuk siswa."
                     android:textColor="#000"
                     android:textSize="10sp" />
             </android.support.v7.widget.CardView>
